@@ -26,7 +26,9 @@ git clone https://github.com/marcos-ux90/LoopFuzz.git
 cd LoopFuzz
 pip install -r requirements.txt
 python3 setup.py --help
+```
 
 ## 🗿​ Build the Docker image
 ```bash
 docker buildx build -t loopfuzz:1.0.2 .
+```
