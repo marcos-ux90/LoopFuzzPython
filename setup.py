@@ -4,7 +4,7 @@ import argparse
 import requests
 import readline
 #crear funcion para descubrir subdominios
-version = "1.0.1"
+version = "1.0.2"
 
 def function_lines(index):
     try:

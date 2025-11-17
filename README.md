@@ -6,7 +6,7 @@ Inspired by classic security tools, LoopFuzz aims to be simple, fast, and effect
 ---
 
 ## ✨ Features
-
+- 👺 **New Dockerfile**: Now you can use the tool from a Docker container.
 - 📂 **Wordlist support**: use custom wordlists to brute-force directories.  
 - 🌐 **HTTP requests**: performs GET requests and reports status codes.  
 - 🎯 **Available modes**:  
@@ -26,3 +26,7 @@ git clone https://github.com/marcos-ux90/LoopFuzz.git
 cd LoopFuzz
 pip install -r requirements.txt
 python3 setup.py --help
+
+## 🗿​ Build the Docker image
+```bash
+docker buildx build -t loopfuzz:1.0.2 .
